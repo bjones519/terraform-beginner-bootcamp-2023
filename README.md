@@ -38,8 +38,8 @@ Format:
 
 **[AWS CLI Installation](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)**
 
-> AWS CLI is installed for the project using a bash script [./bin/install-aws-cli.sh](./bin/install-terraform-cli.sh)
+> AWS CLI is installed for the project using a bash script [./bin/install-aws-cli.sh](./bin/install-aws-cli.sh)
 
 **[AWS CLI Environment Variables](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html)**
 
- > To check if  credentials were configured correctly run ``` aws sts get-caller-identity```
+ > To check if  credentials were configured correctly run ```aws sts get-caller-identity```
