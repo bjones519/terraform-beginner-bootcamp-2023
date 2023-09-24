@@ -11,6 +11,9 @@ A Terra House is a simple Content Management System (CMS) that will allow you to
 
 [Project Documents](https://docs.google.com/document/d/1Ywh-7qaMz3FHUK6SlpZaXJd__FYQnwIlq8MaRmP_X_M/edit#heading=h.gsr323tdunxb)
 
+## System Design
+![SysDesign](/screenshots/Screenshot%202023-09-24%20at%205.50.21%20PM.png)
+
 ### Semantic Versioning:
 This project is using semantic versioning for it's tagging.
 
