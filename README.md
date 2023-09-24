@@ -25,6 +25,7 @@ Format:
 
 ## References
 **[Terraform CLI Installation](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)**
+>Terraform CLI is installed for the project using a bash script [./bin/install-terraform-cli.sh](./bin/install-terraform-cli.sh)
 
 ### Working with environment variables
 - To list out all environment variables, use the `env` command
@@ -34,3 +35,11 @@ Format:
 - When using environment variables in a bash script they can be set without using `export`
 - To print an environment variable use `echo $hello`
 - To persist environment variable across gitpod workspace use `gp env hello='Hello World'`
+
+**[AWS CLI Installation](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)**
+
+> AWS CLI is installed for the project using a bash script [./bin/install-aws-cli.sh](./bin/install-terraform-cli.sh)
+
+**[AWS CLI Environment Variables](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html)**
+
+ > To check if  credentials were configured correctly run ``` aws sts get-caller-identity```
