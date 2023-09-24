@@ -29,7 +29,8 @@ Format:
 ### Working with environment variables
 - To list out all environment variables, use the `env` command
 - To filter specific environment variables use the `grep` command piped with the `env` command
-- To set an environment variable use `export hello='Hello World`
+- To set an environment variable use `export hello='Hello World'`
 - To unset and environment variable use `unset hello`
 - When using environment variables in a bash script they can be set without using `export`
 - To print an environment variable use `echo $hello`
+- To persist environment variable across gitpod workspace use `gp env hello='Hello World'`
