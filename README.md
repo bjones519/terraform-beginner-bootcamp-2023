@@ -46,3 +46,8 @@ Format:
 **[AWS CLI Environment Variables](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html)**
 
  > To check if  credentials were configured correctly run ```aws sts get-caller-identity```
+
+ ### Terraform Basics
+ - Terraform Registry
+    - Providers
+    - Modules
