@@ -46,3 +46,19 @@ Format:
 **[AWS CLI Environment Variables](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html)**
 
  > To check if  credentials were configured correctly run ```aws sts get-caller-identity```
+
+ ### Terraform Basics
+
+ - [Terraform Registry](https://registry.terraform.io/)
+    - **Providers** - Providers are a logical abstraction of an upstream API. They are responsible for understanding API interactions and exposing resources.
+    - **Modules** - Modules are self-contained packages of Terraform configurations that are managed as a group.
+
+ - Terraform Console
+      - **Terraform Init** - Initializes a working directory containing Terraform configuration files
+      - **Terraform Plan** - Creates an execution plan, which lets you preview the changes that Terraform plans to make to your infrastructure
+      - **Terraform Apply** - executes the actions proposed in a Terraform plan
+    
+ - **Terraform State** - Terraform must store state about your managed infrastructure and configuration. This state is used by Terraform to map real world resources to your configuration, keep track of metadata, and to improve performance for large infrastructures. This file should not be commited to your VCS.
+
+ - **Terraform Lock** - Contains the locked versioning for the providers or modulues that should be used with this project. The Terraform Lock File should be committed to your Version Control System (VCS) eg. Github
+   
