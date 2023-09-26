@@ -56,7 +56,8 @@ Format:
  - Terraform Console
       - **Terraform Init** - Initializes a working directory containing Terraform configuration files
       - **Terraform Plan** - Creates an execution plan, which lets you preview the changes that Terraform plans to make to your infrastructure
-      - **Terraform Apply** - executes the actions proposed in a Terraform plan
+      - **Terraform Apply** - Executes the actions proposed in a Terraform plan
+      - **Terraform Destroy** - Will destroy resources
     
  - **Terraform State** - Terraform must store state about your managed infrastructure and configuration. This state is used by Terraform to map real world resources to your configuration, keep track of metadata, and to improve performance for large infrastructures. This file should not be commited to your VCS.
 
