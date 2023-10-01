@@ -63,3 +63,7 @@ Format:
 
  - **Terraform Lock** - Contains the locked versioning for the providers or modulues that should be used with this project. The Terraform Lock File should be committed to your Version Control System (VCS) eg. Github
    
+### Terraform Login Issues
+When attempting to run `terraform login` it will launch bash a wiswig view to generate a token. However it does not work as expected in VsCode.
+
+The automated workaround of creating the credentials file for the terraform api token is created with this [bash script](/bin/generate-tfc-credentials.sh)
